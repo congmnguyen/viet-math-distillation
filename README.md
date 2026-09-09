@@ -1,4 +1,4 @@
-# tune-reason — Vietnamese Math Reasoning for a 1.1B Model
+# viet-math-distillation — Vietnamese Math Reasoning for a 1.1B Model
 
 Distill step-by-step math reasoning from **Phi-3** (teacher) into **TinyLlama-1.1B** (student) with QLoRA, on Vietnamese math problems. The student learns to emit structured `<think>…</think>` / `<answer>…</answer>` outputs.
 
@@ -31,8 +31,8 @@ inference.py            merge LoRA adapters and chat with the tuned model
 ## Setup
 
 ```bash
-git clone https://github.com/congmnguyen/tune-reason.git
-cd tune-reason
+git clone https://github.com/congmnguyen/viet-math-distillation.git
+cd viet-math-distillation
 pip install -r requirements.txt
 ```
 
